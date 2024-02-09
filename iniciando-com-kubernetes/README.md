@@ -114,3 +114,15 @@ williamkoller-worker2         Ready    <none>          7m58s   v1.29.1
 williamkoller-worker3         Ready    <none>          7m59s   v1.29.1
 
 ```
+
+### List clusters
+
+- `kubectl config get-clusters`
+
+### Delete cluster
+
+- `kubectl config delete-cluster kind-fullcycle`
+
+### change of clusters
+
+- `kubectl config use-context name-of-cluster`
